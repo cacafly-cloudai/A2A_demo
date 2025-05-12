@@ -6,7 +6,7 @@ from google.adk.sessions import InMemorySessionService
 from google.adk.tools import VertexAiSearchTool
 from task_manager import AgentWithTaskManager
 
-YOUR_DATASTORE_ID = "hr001_1693905991585"
+YOUR_DATASTORE_ID = "projects/cacafly-poc/locations/global/collections/default_collection/dataStores/hr001_1693905991585"
 
 vertex_search_tool = VertexAiSearchTool(data_store_id=YOUR_DATASTORE_ID)
 
