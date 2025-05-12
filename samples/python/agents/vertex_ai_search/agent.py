@@ -33,7 +33,7 @@ class VertexAISearchAgent(AgentWithTaskManager):
         """Builds the LLM agent for the Human Resources Management Regulations agent."""
         return LlmAgent(
             model='gemini-2.0-flash-001',
-            name='Human Resources Management Regulations_agent',
+            name='Human_Resources_Management_Regulations_agent',
             description=(
                 'This agent answers questions about the Human Resources Management Regulations for the employees'
             ),
